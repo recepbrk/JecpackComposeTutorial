@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -43,6 +44,7 @@ Modifier alt özellikleri bulunur  padding,background,click işlemi gibi !
 fun LearnTextAndModifiers(){
 
     val clickOnText = {}
+
     Text(text = stringResource(id = R.string.hello_text),
         color = Color.Black,
         fontSize = 32.sp,

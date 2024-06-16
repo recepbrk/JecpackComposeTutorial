@@ -13,6 +13,11 @@
         android:theme="@style/Theme.JecpackComposeTutorial"
         tools:targetApi="31">
         <activity
+            android:name=".ui.theme.AlignmentandArrangementActivity"
+            android:exported="false"
+            android:label="@string/title_activity_alignmentand_arrangement"
+            android:theme="@style/Theme.JecpackComposeTutorial" />
+        <activity
             android:name=".LayoutActivity"
             android:exported="false"
             android:label="@string/title_activity_layout"
